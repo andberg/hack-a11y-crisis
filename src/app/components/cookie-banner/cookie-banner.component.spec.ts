@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GoodComponent } from './good.component';
+import { CookieBannerComponent } from './cookie-banner.component';
 
-describe('GoodComponent', () => {
-  let component: GoodComponent;
-  let fixture: ComponentFixture<GoodComponent>;
+describe('CookieBannerComponent', () => {
+  let component: CookieBannerComponent;
+  let fixture: ComponentFixture<CookieBannerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GoodComponent ]
+      declarations: [ CookieBannerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GoodComponent);
+    fixture = TestBed.createComponent(CookieBannerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BadComponent } from './pages/bad/bad.component';
-import { GoodComponent } from './pages/good/good.component';
+import { AboutComponent } from './pages/about/about.component';
+import { JobsComponent } from './pages/jobs/jobs.component';
 import { StartComponent } from './pages/start/start.component';
 
 const routes: Routes = [
   { path: '', component: StartComponent },
-  { path: 'bad', component: BadComponent },
-  { path: 'good', component: GoodComponent },
+  { path: 'om-oss', component: AboutComponent },
+  { path: 'jobba-hos-hos', component: JobsComponent },
   { path: '*', redirectTo: '', pathMatch: 'full' },
 ];
 

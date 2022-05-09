@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { BadComponent } from './pages/bad/bad.component';
-import { GoodComponent } from './pages/good/good.component';
+import { AboutComponent } from './pages/about/about.component';
+import { JobsComponent } from './pages/jobs/jobs.component';
 import { StartComponent } from './pages/start/start.component';
+import { CookieBannerComponent } from './components/cookie-banner/cookie-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    GoodComponent,
-    BadComponent,
+    JobsComponent,
+    AboutComponent,
     StartComponent,
+    CookieBannerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
