@@ -1,0 +1,62 @@
+/*
+* Colors
+-------------- */
+$color-white: #ffffff;
+$color-black: #0e0e0e;
+$color-grey-700: #3e3e3e;
+$color-grey-500: #767676;
+$color-grey-300: #969696;
+$color-white: #ffffff;
+
+$brand-color-1: #f2524a;
+$brand-color-2: #c70039;
+$brand-color-3: #900c3f;
+$brand-color-4: #ffc300;
+$brand-color-5: #daf7a6;
+
+$headings-color: $color-black;
+$pargraph-color: $color-grey-300;
+$link-color: $brand-color-1;
+
+/*
+* Fonts
+-------------- */
+$base-font-family: Helvetica, Arial, sans-serif;
+
+$heading-font-family: Roboto, Arial, sans-serif;
+
+$font-size-0: 0.75rem;
+$font-size-1: 1rem;
+$font-size-1-125: 1.125rem;
+$font-size-1-25: 1.25rem;
+$font-size-1-5: 1.5rem;
+$font-size-1-75: 1.75rem;
+$font-size-2: 2rem;
+$font-size-2-25: 2.25rem;
+
+$base-font-size: $font-size-1;
+$font-size-h1: $font-size-2;
+$font-size-h2: $font-size-1-75;
+$font-size-h3: $font-size-1-5;
+$font-size-h4: $font-size-1-25;
+$font-size-h5: $font-size-1-25;
+
+/*
+* Spacing
+-------------- */
+$spacing-00: 0rem;
+$spacing-10: 0.25rem;
+$spacing-20: 0.5rem;
+$spacing-30: 0.75rem;
+$spacing-40: 1rem;
+$spacing-50: 1.5rem;
+$spacing-60: 2rem;
+$spacing-70: 2.5rem;
+$spacing-75: 2.625rem;
+$spacing-80: 3rem;
+
+$main-desktop-padding: $spacing-40;
+$main-tablet-padding: $spacing-30;
+$main-mobile-padding: $spacing-30;
+
+$content-max-width: 64rem;
